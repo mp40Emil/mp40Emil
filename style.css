@@ -1,0 +1,108 @@
+body {
+  font-family: 'Nunito' ,sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #010000db;
+}
+
+h1 {
+  color: #060606;
+
+}
+
+h2, h3 {
+  color: #060606;
+  
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.button {
+  background-color: #007bff; /* Blaue Hintergrundfarbe */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button a {
+  color: white; /* Weiße Textfarbe für den Link */
+  text-decoration: none; /* Keine Unterstreichung */
+}
+
+.gaming-set-up {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.set-up {
+  border: 4px solid #007bff;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #38d3f9;
+  text-align: center;
+}
+
+.set-up div{
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #38d3f9;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #38d3f9;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+nav {
+  background-color: #333333; 
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  top: 0; /* Positioniert das Menü oben */
+  left: 0; /* Positioniert das Menü links */
+  width: 100%; /* Stellt sicher, dass das Menü die gesamte Breite einnimmt */
+  z-index: 100; /* Stellt sicher, dass das Menü über anderen Elementen liegt */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none; 
+  font-weight: bold;
+}
